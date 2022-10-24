@@ -13,7 +13,6 @@ class CharactersRepository {
         Character.fromJson(character),
       );
     });
-    print(characters);
     return characters;
   }
 }

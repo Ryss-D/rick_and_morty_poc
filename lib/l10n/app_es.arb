@@ -1,4 +1,7 @@
 {
-    "waiting": "Library is setting up",
-    "homeScreenTitle": "Characters"
+    "waiting": "La aplicacion esta cargando",
+    "homeScreenTitle": "Personajes",
+    "navigation": "Naveguemos",
+    "characters": "Lista de personajes",
+    "alphabetSoup": "Sopa de letras"
 }

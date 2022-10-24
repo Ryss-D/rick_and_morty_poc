@@ -31,15 +31,12 @@ query {
 
     final QueryResult result = await client.query(options);
 
-    if (result.hasException) {
-      print(result.exception.toString());
-    }
+    if (result.hasException) {}
 
     final List<dynamic> repositories =
         //result.data['viewer']['repositories']['nodes'] as List<dynamic>;
         result.data!["characters"]["results"] as List<dynamic>;
 
-    print(repositories);
     return repositories;
   }
 }

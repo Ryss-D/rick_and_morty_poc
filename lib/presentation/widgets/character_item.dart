@@ -7,6 +7,7 @@ class CharacterItem extends StatelessWidget {
   late IconData icon;
 
   CharacterItem({
+    super.key,
     required this.character,
   });
 

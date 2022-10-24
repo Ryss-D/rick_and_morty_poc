@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 import 'logic/providers/characters.dart';
 import 'presentation/screens/splash_screen.dart';
 import 'presentation/screens/home_screen.dart';
+import 'presentation/screens/alphabet_soup_screen.dart';
 
 void main() {
   setup();
@@ -41,8 +42,7 @@ class MyApp extends StatelessWidget {
         routes: {
           SplashScreen.routeName: (context) => const SplashScreen(),
           HomeScreen.routeName: (context) => const HomeScreen(),
-          //SearchScreen.routeName: (context) => const SearchScreen(),
-          //BookDetailsScreen.routeName: (context) => const BookDetailsScreen(),
+          AlphabetSoupScreen.routeName: (context) => const AlphabetSoupScreen(),
         },
       ),
     );

@@ -1,4 +1,7 @@
 {
-    "waiting": "Library is setting up",
-    "homeScreenTitle": "Characters"
+    "waiting": "App is setting up",
+    "homeScreenTitle": "Characters",
+    "navigation": "Navigate",
+    "characters": "Characters list",
+    "alphabetSoup": "Alphabet Soup"
 }

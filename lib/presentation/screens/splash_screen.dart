@@ -12,12 +12,6 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Future characters =
-        Provider.of<RMCharacters>(context, listen: false).fetchCharacters();
-
-    characters.then((value) => value.forEach((Character character) {
-          print(character.name);
-        }));
     return SafeArea(
       child: Scaffold(
         body: Center(
