@@ -1,6 +1,4 @@
 {
-    "helloWorld": "Hello World!",
-    "@helloWorld": {
-      "description": "The conventional newborn programmer greeting"
-    }
+    "waiting": "Library is setting up",
+    "homeScreenTitle": "Characters"
 }
