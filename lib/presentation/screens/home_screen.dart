@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
         appBar: AppBar(
           title: Text(AppLocalizations.of(context)!.homeScreenTitle),
         ),
-        drawer: AppDrawer(),
+        drawer: const AppDrawer(),
         body: const CharactersGrid(),
       ),
     );
