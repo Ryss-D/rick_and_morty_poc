@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../screens/home_screen.dart';
-import '../screens/alphabet_soup_screen.dart';
+import '../screens/word_game_screen.dart';
 
 class AppDrawer extends StatelessWidget {
   const AppDrawer({super.key});
