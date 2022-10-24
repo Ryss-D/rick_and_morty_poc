@@ -6,7 +6,7 @@ import 'package:provider/provider.dart';
 import 'logic/providers/characters.dart';
 import 'presentation/screens/splash_screen.dart';
 import 'presentation/screens/home_screen.dart';
-import 'presentation/screens/alphabet_soup_screen.dart';
+import 'presentation/screens/word_game_screen.dart';
 
 void main() {
   setup();
