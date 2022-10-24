@@ -3,8 +3,8 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../widgets/app_drawer.dart';
 
-class AlphabetSoupScreen extends StatelessWidget {
-  const AlphabetSoupScreen({super.key});
+class WordGameScreen extends StatelessWidget {
+  const WordGameScreen({super.key});
   static const routeName = '/alphabet-soup';
 
   @override

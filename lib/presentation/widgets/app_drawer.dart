@@ -30,7 +30,7 @@ class AppDrawer extends StatelessWidget {
           title: Text(AppLocalizations.of(context)!.alphabetSoup),
           onTap: () {
             Navigator.of(context)
-                .pushReplacementNamed(AlphabetSoupScreen.routeName);
+                .pushReplacementNamed(WordGameScreen.routeName);
           },
         ),
         const Divider(),
